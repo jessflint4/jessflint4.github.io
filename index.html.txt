@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Flint</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"= Assignment portal for Jessica FLint in CIT230: Web Frontend Development at BYU-I">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div id="content">
+        <header>
+       <img id="logo" src ="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/p320x320/77422161_10212424665811230_7183967169229619200_o.jpg?_nc_cat=110&_nc_ohc=hWUWRL1XjhcAQlv7b0kMcqlxNkUeMXjYEb5GUdQ9J1wZIyw5bQJCQPpsw&_nc_ht=scontent-iad3-1.xx&_nc_tp=1&oh=ef5021a4d647c61500e8329cdd8640d9&oe=5EAEF296" alt="family pic">
+            <img class="banner" src="http://brothert.net/dryoar/images/river-wide.JPG"><!-- wide banner image will go here --> 
+        </header> 
+
+        <main>
+  <section class ="sec1"> <!-- this is the first row or section of content --> 
+     <div class="leftcol">
+      <h2>CIT 230: Assignmenet Portal</h2>
+    <p> Lesson 02: <li><a href="assignment-link-here">Assignment Link</a></li>
+        Lesson 03: <li><a href="assignment-link-here"></a></li>
+        Lesson 04: <li><a href="assignment-link-here"></a></li> </p>
+         </div>
+    
+    <div class="rightcol">
+    <img class="img1" src="http://brothert.net/dryoar/images/ik-rapid.jpg">
+    </div>
+  </section>
+</main>
+
+  
+<footer>
+  <div>
+      <p id="info" >&copy;2020|Jessica Flint|Ohio| <li><a href="https://www.byui.edu/online">BYUI Online Learning</a></li></p> 
+  </div>
+</footer>
+    
+  </div>
+  </body>
+</html> 
+
