@@ -1,0 +1,236 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+@media screen and (max-width: 500px){
+
+}
+body{
+   display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(36, 95, 151);
+}
+
+header {
+   color: rgb(5, 41, 94);
+   background-color:rgb(36, 95, 151);
+   font-size: 2rem;
+   line-height: 2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   width: 100%;
+   margin:0 auto;
+   text-align: center;
+   
+
+   
+}
+
+header img, .headings {
+   display: inline-block;
+   
+   vertical-align: middle;
+   margin: 10px;
+}
+
+header h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(126, 2, 22);
+  font-size: 60px;
+  width: 100%;
+}
+
+
+
+
+.logo {
+height: 8rem;
+width: 250px;
+height: 200px;
+
+
+}
+
+
+
+.motto {
+   max-width: 100%;
+   font-size: .9em;
+   line-height: 2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(20, 196, 219);
+text-align: center;
+}
+
+
+/* keep everything the same after orientation changes in app on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+nav{
+  background-color:rgb(36, 95, 151);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+
+  
+}
+
+
+nav button{
+  margin: .2em 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: rgb(198, 192, 228);
+ 
+  
+}
+
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+ 
+}
+
+nav ul li a{
+display: grid;
+font-size: 1rem;
+padding: .8rem 2%;
+text-decoration: none;
+color:rgba(255,255,255,0.8);
+border-top: 1px solid rgba(0,0,0,0.3);
+text-align: center;
+}
+nav ul li .active a{
+  background-color: rgba(0,0,0,0.2);color: #fff;
+  
+  
+}
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.4);
+  height: 50px;
+}
+
+
+nav ul.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/*----- Main CONTENT--*/
+
+main{
+   display: block;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100%;
+  margin:0 auto;
+  text-align: center;
+  padding: 150px;
+  background-color: rgb(90, 118, 245);
+}
+.boxholder{
+   max-width: 86%;
+  display: grid;
+  margin: 10px auto;
+  border: 1px solid #000;
+  background-color: rgb(212, 204, 204);
+  color: rgb(88, 135, 179);
+  font-style: bold;
+  padding: 10px;
+
+  
+
+}
+.boxholder{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+  grid-gap: 10px;
+}
+
+div {
+
+  display: block;
+ 
+  width: 100%;
+  margin:0 auto;
+  text-align: left;
+}
+
+
+/*--------FOOTER----*/
+
+footer{
+  background-color:rgb(36, 95, 151) ;
+  
+  width: 80%;
+  
+  padding: 5px;
+  margin:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -1px;
+  clear: both ;
+  position: relative;
+  
+  border-radius: 10px;
+ 
+ 
+}
+footer p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

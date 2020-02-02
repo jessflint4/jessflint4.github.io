@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Preston Weather Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7cPT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/small.css" type="text/css">
+  <link rel="stylesheet" href="css/medium.css" type="text/css">
+</head>
+
+<body>
+<!--HEADER-->
+<header> 
+<img class="logo" src="images/images.png" alt="mountain weather headquarter logo"> 
+
+   <section class="headings">
+       <h1>Mountain Weather Headquarter</h1>
+       <div class="motto"><h2>Keeping you updated in the mountains</h2></div>
+   </section>
+</header>
+
+
+
+<!-- NAVIGATION HERE -->
+   <nav class="clearfix">
+       <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+           <li><a href="#">Home</a></li>
+           <li class="active"><a href="#">Preston</a></li>
+           <li><a href="#">Soda Spring</a></li>
+           <li><a href="#">Fish Haven </a></li> 
+           <li><a href="#">Storm Center</a></li>
+           <li><a href="#">Gallery</a></li>
+         </ul>
+   </nav>
+   
+
+
+<!--MAIN CONTENT-->
+
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="boxholder">Moutain weather</div>
+      <div class="boxholder">Check out the forecast</div>
+      <div class="boxholder">Read our top stories</div> 
+      <div class="boxholder">Contact Us</div>
+    </main>
+
+
+    <footer>
+        <p class="foottext">&copy;<span id="currentyear"></span> | Jessica Flint | Ohio | <a
+        href="https://www.byui.edu/online" class="footerlink" target="_blank">BYUI Online
+        Learning</a></p>
+        <br>
+        <p class="line2">Last Updated: <span id="lastMod"></span></p>
+    </footer>
+  <script src="time.js"></script>
+</body>
+</html>
