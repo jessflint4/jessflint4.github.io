@@ -1,0 +1,74 @@
+main {
+  background-color: white;
+  margin-bottom: 35px;
+}
+
+.name {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+}
+
+header,
+footer {
+  background: #2E004F;
+  max-width: 960px;
+  text-align: center;
+}
+
+p {
+  color: rgb(7, 0, 0);
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: #2E004F;
+  text-align: left;
+}
+
+.listtext {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #2E004F;
+}
+
+hr {
+  margin-left: 20px;
+}
+
+
+a:hover {
+  color: rgba(253, 4, 108, 0.836);
+}
+
+.foottext {
+  padding-top: 10px;
+}
+
+.line2 {
+  margin-top: -30px;
+  padding-bottom: 10px;
+}
+
+.footerlink {
+  color: white;
+}
+
+.navlink {
+  color: #2E004F;
+}
