@@ -10,13 +10,13 @@ body{
   display: grid;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(36, 95, 151);
+  background-color:rgb(246, 249, 252);
   color: black;
 }
 
 header {
    color: rgb(5, 41, 94);
-   background-color:rgb(36, 95, 151);
+   background-color:rgb(246, 249, 252);
    font-size: 2rem;
    line-height: 1;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,10 +25,7 @@ header {
    margin:0 auto;
    text-align: center;
    
-
-   
 }
-
 header img, .headings {
    display: inline-block;
    
@@ -42,8 +39,6 @@ header h1{
   font-size: 60px;
   width: 100%; n
 }
-
-
 
 
 .logo {
@@ -79,68 +74,95 @@ nav{
 
   
 }
-
-
-nav button{
-  margin: .2em 2%;
-  background-color: transparent;
-  border: none;
-  font-size: 1.6rem;
-  color: rgb(198, 192, 228);
- 
-  
-}
-
-nav ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.navigation {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 	overflow: hidden;
 }
 
 
 nav ul li a{
-display: grid;
+display: block;
 font-size: 1rem;
-padding: .8rem 2%;
+padding: 0.8rem;
 text-decoration: none;
 color:rgba(255,255,255,0.8);
 }
 nav ul li .active a{
-  background-color: rgba(0,0,0,0.2);color: #fff;
+  background-color:rgb(246, 249, 252);color: #fff;
   
   
 }
 nav ul li a:hover {
-  background-color: rgba(0,0,0,0.4);
+  background-color:rgb(246, 249, 252);
   height: 50px;
 }
 
-
-nav ul.hide {
-  display: none;
+nav li {
+  display: inline-flex;
 }
-
-
-
-
-
-
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
 
 
 /*----- Main CONTENT--*/
+.contentbox {
+  display: block;
+  margin: 0 auto 2em auto;
+  padding: 10px;
+  color:rgb(246, 249, 252);
+  font-style: italic;
+  width:90%;
+  height: auto;
+  position: relative;
+  box-shadow: 1px 1px 4px #3b3c3c; 
+}
+#summary {
+  max-width: 300px;
+  margin-right: 33vw;
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+banner {
+  max-width: 300px;
+  position: relative;
+
+}
+
+div.contentbox div img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+h3#fiveDayBanner, div.fiveDay #day1, #day2,
+#day3, #day4, #day5  {
+  display: none;
+}
+article.contentbox img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+
+.forecast {
+  display: block;
+  width: 90%;
+  max-width: 850px;
+  height: auto;
+  margin: 2em auto;
+  color: #ebebd3;
+}
+.forecast h3, .fiveDay {
+  text-align: center;
+}
+div.contentbox div img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
 
 main{
   display: block;
@@ -161,9 +183,6 @@ main{
   color: rgb(88, 135, 179);
   font-weight: bold;
   padding: 10px;
-
-  
-
 }
 .boxholder{
   display:grid;
@@ -172,13 +191,20 @@ main{
   grid-gap: 10px;
 }
 
-div {
 
-  display: block;
- 
-  width: 100%;
-  margin:0 auto;
-  text-align: left;
+div {
+display: block;
+width: 100%;
+margin:0 auto;
+text-align: left;
+}
+div.contactInfo {
+  padding: 1.5em;
+  width: 250px;
+  margin: auto;
+}
+div.contactInfo div {
+  padding: .5em;
 }
 
 
