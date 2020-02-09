@@ -48,9 +48,6 @@ header h1{
 
 .logo {
 width: 100px;
-
-
-
 }
 
 
@@ -94,14 +91,13 @@ nav button{
   
 }
 
-
 nav ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-
- 
+	overflow: hidden;
 }
+
 
 nav ul li a{
 display: grid;
@@ -109,8 +105,6 @@ font-size: 1rem;
 padding: .8rem 2%;
 text-decoration: none;
 color:rgba(255,255,255,0.8);
-border-top: 1px solid rgba(0,0,0,0.3);
-text-align: center;
 }
 nav ul li .active a{
   background-color: rgba(0,0,0,0.2);color: #fff;
