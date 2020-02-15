@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Preston Weather Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7cPT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/small.css" type="text/css">
+  <link rel="stylesheet" href="css/medium.css" type="text/css">
+</head>
+
+<body>
+<!--HEADER-->
+<header> 
+<img class="logo" src="images/images.png" alt="mountain weather headquarter logo"> 
+
+   <section class="headings">
+       <h1>Mountain Weather Headquarter</h1>
+       <div class="motto"><h2>Keeping you updated in the mountains</h2></div>
+   </section>
+</header>
+
+
+
+<!-- NAVIGATION HERE -->
+<nav>
+<ul class="navigation">
+        <li><a href="/index.html">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Spring</a></li>
+        <li><a href="#">Fish Haven </a></li> 
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+</ul>
+</nav>
+   
+
+
+<!--MAIN CONTENT-->
+
+<main>
+<h2>Local Idaho Mountain Weather</h2>
+<section class="weatherSummary">
+  <figure class="heroImage">
+      <img src="images/franklinoriginal.jpeg" alt="Hero Image" sizes="50vw" srcset="images/franklinoriginal.jpeg 350w, images/franklinoriginal.jpg 500w,
+      images/franklinoriginal.jpeg 900w">
+  </figure>
+  <!--<img src="images/heroImage.jpeg" alt="Sunset and cloudy sky with mountains">-->
+  <div class="weatherSummaryTxt">
+      <h2>Weather Summary</h2>
+      <div class="weatherSummaryGrid">
+          <p class="summaryp">Currently:</p>
+          <p class="currentweather">Sunny</p>
+          <p class="summaryp">High:</p>
+          <p class="high">76&#xb0;</p>
+          <p class="summaryp">Wind Chill:</p>
+          <p class="windchill" id="windch">&#xb0;F</p>
+          <p class="summaryp">Humidity: </p>
+          <p class="humidity">69%</p>
+          <p class="summaryp">Wind Speed: </p>
+          <p class="windspeed"><span id="windSp">5</span> mph</p>
+      </div>
+  </div>
+</section>
+          <div class="forecast">
+        <h3 id="fiveDayBanner">5 Day Forecast</h3>
+        <div class="fiveDay">
+          <div class="card" id="day1">
+            <span class="label">Wed</span>
+            <span class="icon">☀️</span>
+            <span class="describe">56 F</span>
+          </div>
+          <div class="card" id="day2">
+            <span class="label">Thu</span>
+            <span class="icon">☀️</span>
+            <span class="describe">56 F</span>
+          </div>
+          <div class="card" id="day3">
+            <span class="label">Fri</span>
+            <span class="icon">☀️</span>
+            <span class="describe">56 F</span>
+          </div>
+          <div class="card" id="day4">
+            <span class="label">Sat</span>
+            <span class="icon">☀️</span>
+            <span class="describe">56 F</span>
+          </div>
+          <div class="card" id="day5">
+            <span class="label">Sun</span>
+            <span class="icon">☀️</span>
+            <span class="describe">56 F</span>
+          </div>
+        </div>
+    
+    <article class="contentbox">
+        <img src="images/prestonmountainimages.jpg" alt="map">
+        <div class="author">
+            <h3>AWESOME TITLE HERE</h3>
+            <h4>By Sponge Bob</h4>
+        
+        <p>Lorem ipsum dolor sit amet, sit ex mentitum facilisi democritum, at prima ullum delicatissimi est. Accusam dolores quaerendum eu ius, cu eum vide iudico, vis vero meliore te. Efficiendi neglegentur id vel, et sit erant facilis volumus. Admodum recteque consulatu sit ne, sea ubique mollis ocurreret an. Duo ex autem fabellas, sit dolorum tacimates ei. Per te affert suscipit.
+
+            Cu nec purto duis affert, sea ad facilisi assentior. Ius assum intellegat id, pri novum libris mediocritatem ex. Graeci melius duo ne, minim volumus mentitum mel eu, mel ea dicunt instructior. Vim ea eius iisque quaerendum, et nec salutatus definiebas concludaturque. Malorum definitiones mel id, mazim deserunt assueverit per ad.
+            
+            Vix imperdiet tincidunt incorrupte eu, nibh oportere reformidans eos at, sit error audire appareat ut. Quo no solum debet labore. Ea eum eius mundi congue, timeam incorrupte sit et. Duo cu sumo invidunt, vim ea debet cetero tractatos, falli aliquip dolorum te duo.
+            
+            Te nullam deseruisse usu, tollit adolescens has ea. At postea noluisse democritum has, suas postea ad sea, per ut saperet admodum. Prima error assueverit in ius, ad eam quodsi constituam, eirmod nominati delicata sed id. Sit no vero placerat. Pri vulputate pertinacia id, et putent vivendo delectus eos. Eum labitur persequeris ei, eros aperiam mea no, alii purto nusquam pri an.
+            
+            Eu vix nostro corpora sensibus, sadipscing dissentiunt philosophia mel eu. Id mei nostro oporteat. Melius consectetuer vim cu. Iudico efficiantur ut vel, nec omnesque dissentiet et. Nobis principes ea duo.
+        </p>
+    </div>
+    </article>
+   
+      <div class="contentbox contactus">
+        <div class="contactinfo">
+            Mountain Weather Headquarters
+            <br>555 S Mountain Way
+            Preston, ID 84335</p>
+            Email or Call Us at:<br>
+            mountainheadquarter@gmail.com<br>
+            208-333-0123    
+            </p>
+        <img id="logo" src="images/mappic.jpg"  
+        </div>
+
+        </div>
+    
+    </main>
+
+
+
+    <footer>
+        <p class="foottext">&copy;<span id="currentyear"></span> | Jessica Flint | Ohio | <a
+        href="https://www.byui.edu/online" class="footerlink" target="_blank">BYUI Online
+        Learning</a></p>
+        <br>
+        <p class="line2">Last Updated: <span id="lastMod"></span></p>
+    </footer>
+  <script src="js/time.js"></script>
+  <script src="js/squishmenu.js"></script>
+</body>
+</html>
