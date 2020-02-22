@@ -1,39 +1,39 @@
-
-@media (min-width: 82.5em) {
-    body,
-    main {
-        font-size: 20pt;
-        }
-        nav li a {
-            font-size: .75em;
-        }
-        p {
-            line-height: 2rem;
-        }
+@media only screen and (min-width: 64em) {
+ .weatherimages {
+    max-width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
     }
-    nav button {
-        display: none;
+figure {
+    font-size: 1.5em;
+    }
+    
+figure:hover {
+    box-shadow: 0 0 30px rgb(136, 135, 135);
+    border-radius: 0px;
+    }
+    
+.motto {
+    font-size: 1em;
+    }
+    
+h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    }
+    
+h2 {
+    font-size: 2.8em;
+    }
+    
+h3 {
+    font-size: 1.2em;
+    
+    }
+    
+footer {
+    font-size: 16px;
+    }
+    
+    
         
     }
-    nav ul.hide{
-        display: block;
-    }
-    nav ul{
-        margin-left: 10%;
-    }
-    nav ul li {
-      float: left;
-      display:block;
-     text-align:center;
-      width:200px; /* fixed width */
-      text-decoration:none; 
-
-  }
-  nav ul li a {
-      border: none;
-      border-right: 1px solid rgba(0, 0, 0, 0.3) ;
-      padding: .6rem 1rem;
-      
-  }
-  
-} 
