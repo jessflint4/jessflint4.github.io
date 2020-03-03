@@ -1,0 +1,310 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+@media screen and (max-width: 500px){
+
+}
+body{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(246, 249, 252);
+  color: black;
+}
+
+header {
+   color: rgb(5, 41, 94);
+   background-color:rgb(246, 249, 252);
+   font-size: 2rem;
+   line-height: 1;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   width: 100%;
+   margin:0 auto;
+   text-align: center;
+   
+}
+header img, .headings {
+   display: inline-block;
+   
+   vertical-align: middle;
+   margin: 10px;
+}
+
+header h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(126, 2, 22);
+  font-size: 60px;
+  width: 100%; n
+}
+
+
+.logo {
+width: 100px;
+}
+
+
+
+.motto {
+   max-width: 100%;
+   font-size: .9em;
+   line-height: 2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(20, 196, 219);
+text-align: center;
+}
+
+
+/* keep everything the same after orientation changes in app on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+nav{
+  background-color:rgb(36, 95, 151);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+
+  
+}
+.navigation {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+nav ul li a{
+display: block;
+font-size: 1rem;
+padding: 0.8rem;
+text-decoration: none;
+color:rgba(255,255,255,0.8);
+}
+nav ul li .active a{
+  background-color:rgb(246, 249, 252);color: #fff;
+  
+  
+}
+nav ul li a:hover {
+  background-color:rgb(246, 249, 252);
+  height: 50px;
+}
+
+nav li {
+  display: inline-flex;
+}
+
+
+/*----- Main CONTENT--*/
+.weatherSummary {
+  position: relative;
+  margin-bottom: 77px;
+}
+
+.weatherSummaryTxt {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: white;
+  padding: .7rem;
+  font-size: .9rem;
+  box-shadow: 0 0 30px #111;
+  opacity: .8;
+}
+
+.weatherSummaryGrid {
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  grid-column-gap: 15px;
+}
+
+.weatherSummaryTxt p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3rem;
+}
+
+.summaryp {
+  grid-column: 1/2;
+  justify-self: end;
+}
+
+.currentweather {
+  grid-column: 2/3;
+}
+
+/*.high {}
+
+.windchill {}
+
+.humidity {}
+
+.windspeed {}*/
+
+.fiveday {
+  display: none;
+}
+
+.contentbox {
+  display: block;
+  margin: 0 auto 2em auto;
+  padding: 10px;
+  color:rgb(246, 249, 252);
+  font-style: italic;
+  width:90%;
+  height: auto;
+  position: relative;
+  box-shadow: 1px 1px 4px #3b3c3c; 
+}
+#summary {
+  max-width: 300px;
+  margin-right: 33vw;
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+banner {
+  max-width: 300px;
+  position: relative;
+
+}
+
+div.contentbox div img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+h3#fiveDayBanner, div.fiveDay #day1, #day2,
+#day3, #day4, #day5  {
+  display: none;
+}
+article.contentbox img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+
+.forecast {
+  display: block;
+  width: 90%;
+  max-width: 850px;
+  height: auto;
+  margin: 2em auto;
+  color: #ebebd3;
+}
+.forecast h3, .fiveDay {
+  text-align: center;
+}
+div.contentbox div img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+main{
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%
+  max-width: 900px;
+  margin:0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(90, 118, 245);
+}
+.boxholder{
+   max-width: 86%;
+  display: grid;
+  margin: 10px auto;
+  border: 1px solid #000;
+  background-color: rgb(212, 204, 204);
+  color: rgb(88, 135, 179);
+  font-weight: bold;
+  padding: 10px;
+}
+.boxholder{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+  grid-gap: 10px;
+}
+
+
+figure {
+  font-size: 1.15em;
+}
+
+.weatherimages {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+picture img[data-src] {
+  filter: sepia(100%) blur(0.75em);
+}
+
+picture img {
+  width: 100%;
+  transition: filter 0.85s;
+}
+
+/*--------FOOTER----*/
+
+footer{
+  background-color:rgb(36, 95, 151) ;
+  
+  width: 80%;
+  
+  padding: 5px;
+  margin:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -1px;
+  clear: both ;
+  position: relative;
+  
+  border-radius: 10px;
+ 
+ 
+}
+footer p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
