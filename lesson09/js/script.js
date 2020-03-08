@@ -7,7 +7,7 @@ let dayName = dayz[today.getDay()];
 let month = monthz[today.getMonth()];
 let year = today.getFullYear();
 
-let name = "Jessica FLint";
+let name = "Jessica Flint";
 let state = "Ohio";
 let school = '<a href="https://www.byui.edu/online">BYUI Online Learning</a>';
 document.getElementById("footdiv").innerHTML = `&copy; Mountain Weather Headquarters | ${name}`;
