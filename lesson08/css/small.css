@@ -223,6 +223,7 @@ main{
   padding: 10px;
   background-color: rgb(90, 118, 245);
 }
+
 .boxholder{
    max-width: 86%;
   display: grid;
